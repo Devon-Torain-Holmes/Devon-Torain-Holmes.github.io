@@ -1,0 +1,706 @@
+h1{
+            color: rgb(12, 10, 10);
+            font-size: 50px;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            text-shadow: 0 0 100px #124270
+
+          
+}
+
+
+
+
+
+/*master styles*/
+
+
+
+
+ h1 {
+  color: whitesmoke;
+  font-family: Arial, Helvetica, sans-serif;
+
+  }
+
+
+/*Images section*/
+
+div.gallery {
+  margin: 7px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 330px;
+  height:350px;
+  flex: 33.33%;
+  padding: 8px;
+}
+
+
+
+div.gallery:hover {
+  border: 1px solid #777;
+  background-color: lightsteelblue;
+
+
+}
+
+div.gallery img {
+  width: 300px;
+  height: 300px;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+  color: whitesmoke;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+  .img-wrapper {
+      display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  /* View marks table*/
+
+   th, td {
+      width: 1000px;
+      height: 50px;
+      border: 1px solid black;
+      border-collapse: collapse;
+      padding: 15px;
+      text-align: center;
+      border-spacing: 5px;
+      margin: 0 auto;
+      background-image: linear-gradient(rgba(1, 251, 59, 0.364), rgb(1, 251, 59, 0.364));
+
+
+  }
+
+  .table1 {
+
+    align-content: center;
+  }
+
+
+
+
+  tr:hover {
+     background: whitesmoke;
+     
+
+  }
+
+  th {
+      background: rgb(1, 251, 59, 0.364); 
+
+
+
+  }
+
+ /* Progress Tab */
+* {box-sizing:border-box}
+
+/* Container for skill bars */
+.container {
+  width: 1200px; /* Full width */
+  height: 50px;
+  background-color: lightsteelblue; /* Grey background */
+
+
+}
+
+.skills {
+  text-align: right; /* Right-align text */
+  padding-top: 10px; /* Add top padding */
+  padding-bottom: 10px; /* Add bottom padding */
+  color: white; /* White text color */
+}
+
+.math {width: 90%; background-color: #4CAF50;} /* Green */
+.eng {width: 80%; background-color: #2196F3;} /* Blue */
+.afr {width: 65%; background-color: #f44336;} /* Red */
+.lo {width: 60%; background-color: #808080;} /* Dark Grey */
+.cat {width: 56%; background-color: #4CAF50;} /* Green */
+
+.progress {
+    border: 1px solid black;
+    width: 1250px;
+    height: 100%;
+    background-color: lightsteelblue;
+
+}
+
+/*Calandar tab*/
+
+* {box-sizing: border-box;
+  
+  
+  }
+ul {list-style-type: none;}
+body {font-family: Verdana, sans-serif;
+      
+
+}
+
+
+.month {
+  padding: 70px 25px;
+  width: 100%;
+  background: lightblue;
+  text-align: right;
+}
+
+.Date bar li {
+    text-align: center;
+}
+
+.month ul {
+  margin: 0;
+  padding: 0;
+}
+
+.month ul li {
+  color: white;
+  font-size: 35px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-align: center;
+}
+
+.month .prev {
+  float: left;
+  padding-top: 10px;
+}
+
+.month .next {
+  float: right;
+  padding-top: 10px;
+}
+
+.weekdays {
+  margin: 0;
+  padding: 10px 0;
+  background-color: #ddd;
+}
+
+.weekdays li {
+  display: inline-block;
+  width: 13.6%;
+  color: #666;
+  text-align: center;
+}
+
+.days {
+  padding: 10px 0;
+  background: #eee;
+  margin: 0;
+}
+
+.days li:hover {
+    background: lightblue;
+
+
+}
+.days li {
+  list-style-type: none;
+  display: inline-block;
+  width: 13.6%;
+  text-align: center;
+  margin-bottom: 5px;
+  font-size:12px;
+  color: #777;
+}
+
+.days li .active {
+  padding: 5px;
+  background: lightblue;
+  color: white !important
+}
+
+/* Add media queries for smaller screens */
+@media screen and (max-width:720px) {
+  .weekdays li, .days li {width: 13.1%;}
+}
+
+@media screen and (max-width: 420px) {
+  .weekdays li, .days li {width: 12.5%;}
+  .days li .active {padding: 2px;}
+}
+
+@media screen and (max-width: 290px) {
+  .weekdays li, .days li {width: 12.2%;}
+}
+
+/*About page*/
+
+.two-column-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.profile-image-wrapper img {
+    width: 100%
+
+}
+
+.profile-content-wrapper {
+    padding: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.spp  {
+  
+  text-align: center;
+
+}
+
+
+.pic {
+  display: grid;
+  grid-template-columns: 85fr 50fr 0fr 5fr;
+  width: 75%;
+  margin: 0 auto;
+  text-align: center
+
+
+}
+
+
+.ipic {
+    margin: 7px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 330px;
+    height: 350px;
+    flex: 33.33%;
+    padding: 8px;
+}
+
+
+.ipic:hover {
+   background: lightskyblue;
+
+}
+
+.con1 {
+  border: 1px solid black;
+  width: 75%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.conb {
+  background-color: lightblue;
+ border: none;
+ color: white;
+ padding: 15px 32px;
+ text-align: center;
+ text-decoration: none;
+ display: inline-block;
+ font-size: 16px;
+ margin: 4px 2px;
+ cursor: pointer;
+}
+
+
+.flex-box-1 {
+    Display: flex;
+    justify-content: space-around;
+    border: 1px solid black;
+    flex-wrap: wrap;
+}
+
+.flex-box-1 img {
+  width: 300px;
+  height: 300px;
+}
+
+
+
+.con {
+  opacity: 1.5;
+  background-image: linear-gradient(rgba(1, 251, 59, 0.364), rgb(10, 35, 33));
+  border: 1px solid black;
+  width: 75%;
+  margin: 0 auto;
+  text-align: center;
+  color: #ddd;
+  
+}
+
+.con:hover {
+  background: white;
+  color: black;
+  font-size: 25px;
+  
+}
+
+
+
+.hill {
+  color: #ddd;
+  background-image: linear-gradient(rgba(1, 251, 59, 0.364), rgb(10, 35, 33));
+  border: 1px solid black;
+  width: 75%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.hill img {
+  height: 300px;
+  width: 250px;
+}
+
+.hill:hover {
+  background: white;
+  color: black;
+  font-size: 25px;
+}
+
+
+.edu {
+ 
+  width: 75%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.Inpic {
+  
+  width: 25%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 0%;
+}
+
+
+
+
+
+.bb table {
+  width: 1300px;
+  height: 50px;
+  border: 1px solid black;
+  
+  padding: 10px;
+  text-align: center;
+  border-spacing: 5px;
+  margin: 0 auto;
+  font-size: 20px;
+  align-items: auto;
+
+}
+
+
+
+body {
+  font-family: "Lato", sans-serif;
+  padding: 20px;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-image: linear-gradient(rgb(0, 0, 0), rgb(9, 66, 63));
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #70fb46;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #ffffff;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+
+.ik {
+    display: block;
+    margin-left: 30px;
+    margin-right: 10px;
+    width: 50%;
+  }
+
+
+  .firstp img {
+    display: block;
+    margin-left: 250px;
+    margin-right: 1000px;
+    width: 1400px;
+
+  }
+
+  .homep li {
+    text-align: center
+    
+  }
+
+
+  
+
+  .myFooter  {
+    opacity: 0.5;
+    text-align: center;
+    background-color: rgb(111, 100, 96);
+    color: white;
+  }
+
+  .myFooter img {
+    width: 45px;
+    height: 45px;
+  }
+
+
+ 
+
+  .homeImg img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    height: auto;
+    border-radius: 50%;
+    
+  }
+
+  .homep p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 25px;
+    color: whitesmoke;
+
+  }
+  
+span {
+  color: whitesmoke;
+  font-size: 40px; 
+}
+
+.homeicon img {
+  border-radius: 50%;
+  border-style: solid;
+ 
+}
+
+.Ep {
+  color: black;
+  background-image: url('loaderB.jpg');
+  border: 1px solid black;
+  width: 75%;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 20px;
+  opacity: 0.9;
+  
+}
+
+
+@media only screen and (max-width:1000px) {
+  /* For tablets: */
+  .table1, table {
+    width: 80%;
+    padding: 0;
+  }
+
+  .table1, table {
+    text-align: center;
+    font-size: 15px; 
+  }
+
+  .bb table {
+    width: 50%;
+    padding: 0;
+    text-align: center;
+    font-size: 20px;
+   
+  }
+
+
+  
+
+  
+}
+
+@media only screen and (max-width:800px) {
+  /* For mobile phones: */
+  .table1, table {
+    font-size: 15px;
+    width: 100%;
+    margin: 0 auto;
+    
+  }
+
+  .hill, .con {
+    font-size: 25px;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  
+  .hill img, img {
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  
+    .contact-input{
+      width: 80vw;
+    }
+
+    .contact-right {
+      display: none;
+    }
+    
+  
+
+  
+ 
+}
+
+/* Contacts Page*/
+
+
+
+.contactsPage {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+  background-image: url('Exp9.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+
+.contact-container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+}
+
+.contact-left {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 20px;
+}
+
+.contact-left-title h2 {
+  font-family: Arial, sans-serif;
+  font-weight: 600;
+  color: whitesmoke;
+  font-size: 40px;
+  margin-bottom: 5px;
+
+}
+
+.contact-left-title hr {
+  border: none;
+  width: 165px;
+  height: 5px;
+  background-color: #70fb46;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+
+.contact-input {
+  width: 400px;
+  height: 50px;
+  border: none;
+  outline: none;
+  padding-left: 25px;
+  font-weight: 500;
+  color: gray;
+  border-radius: 50px;
+}
+
+.contact-left textarea {
+  height: 140px;
+  width: 400px;
+  padding-top: 15px;
+  border-radius: 20px;
+  border: none;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+}
+
+.contact-input:focus{
+    border: 2px solid #777;
+}
+
+.contact-input::placeholder {
+  color:#808080;
+
+}
+
+
+.contact-left button {
+  display: flex;
+  width: 150px;
+  height: 50px;
+  align-items: center;
+  padding: 15px 30px;
+  font-size: 16px;
+  color: whitesmoke;
+  gap: 10px;
+  border: none;
+  border-radius: 50px;
+  background-color: #7bb569;
+  cursor: pointer;
+}
+
+button:hover {
+  color: rgb(0, 207, 0);
+  background-color: black;
+  font-size: 20px;
+  width: 200px;
+  
+}
+
+.contact-right img {
+
+  width: 500px;
+  height: 500px;
+  width: 650px;
+  border-radius: 20%;
+  opacity: 0.5;
+}
+
+
+a {
+  text-decoration: none;
+  color: rgb(13, 46, 194);
+}
