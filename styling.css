@@ -558,7 +558,8 @@ span {
     
   }
 
-  .hill, .con {
+
+  .hill, .contact-info, .con {
     font-size: 25px;
     width: 100%;
     margin: 0 auto;
@@ -581,9 +582,18 @@ span {
     .contact-right {
       display: none;
     }
-    
-  
 
+    .homeImg img {
+      width: 80%;
+      
+    }
+
+    .ik img {
+      width: 250px;
+      height: 250px;
+    }
+    
+    
   
  
 }
@@ -703,4 +713,26 @@ button:hover {
 a {
   text-decoration: none;
   color: rgb(13, 46, 194);
+}
+
+
+
+.contact-info {
+  color: #ddd;
+  background-image: linear-gradient(rgba(1, 251, 59, 0.364), rgb(10, 35, 33));
+  border: 1px solid black;
+  width: 75%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.contact-info img {
+  height: 25px;
+  width: 30px;
+}
+
+.contact-info:hover {
+  background: rgba(16, 192, 231, 0.588);
+  color: black;
+  
 }
