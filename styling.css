@@ -593,6 +593,27 @@ span {
       height: 250px;
     }
     
+    .contact-container p {
+      font-size: 20px;
+    }
+
+    .contact-container a {
+      font-size: 20px;
+      padding: 90%;
+    }
+    
+    .contact-container {
+      font-size: 20px;
+      width: 100%;
+      margin: 0 auto;
+    }
+
+    .contact-info img {
+      height: 60px;
+      width: 60px;
+    }
+    
+    
     
   
  
@@ -721,11 +742,11 @@ a {
   color: #ddd;
   background-image: linear-gradient(rgba(1, 251, 59, 0.364), rgb(10, 35, 33));
   border: 1px solid black;
-  width: 40%;
+  width: 80%;
   height: 90%;
   margin: 0 auto;
   text-align: center;
-  font-size: 25px;
+  font-size: 30px;
 
 }
 
